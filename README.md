@@ -1,7 +1,7 @@
 # ember-cli-table-it
-Easy to use table component for Ember-cli
+Easy to use addon for creating tables for Ember
 
-# Ember-cli-table-it
+# Ember-table-it
 
 This README outlines the details of collaborating on this Ember addon.
 

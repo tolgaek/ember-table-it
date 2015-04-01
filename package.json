@@ -1,7 +1,7 @@
 {
-  "name": "ember-cli-table-it",
+  "name": "ember-table-it",
   "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An ember-addon for implementing tables with support for pagination",
   "directories": {
     "doc": "doc",
     "test": "tests"
