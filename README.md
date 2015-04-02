@@ -1,3 +1,4 @@
+### THIS ADDON IS NOT READY FOR PRODUCTION YET. FULL FUNCTIONALITY IS BEING IMPLEMENTED INCLUDING PAGINATION 
 # ember-table-it
 Easy to use addon for creating tables for Ember
 
