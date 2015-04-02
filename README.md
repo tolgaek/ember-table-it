@@ -1,4 +1,4 @@
-# ember-cli-table-it
+# ember-table-it
 Easy to use addon for creating tables for Ember
 
 # Ember-table-it
