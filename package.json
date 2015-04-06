@@ -32,7 +32,11 @@
     "ember-export-application-global": "^1.0.2"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember",
+    "table",
+    "ember-cli-table",
+    "component"
   ],
   "dependencies": {
     "ember-cli-babel": "^4.0.0",
