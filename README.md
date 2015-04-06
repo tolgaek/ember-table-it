@@ -3,7 +3,7 @@
 
 # Ember-table-it
 
-![Simple table example(https://cloud.githubusercontent.com/assets/891261/6999826/5e1d677c-dbe3-11e4-8c63-60ab12685a15.png)
+![Simple table example](https://cloud.githubusercontent.com/assets/891261/6999826/5e1d677c-dbe3-11e4-8c63-60ab12685a15.png)
 
 ## Dependencies
 
