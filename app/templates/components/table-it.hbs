@@ -1,2 +1,5 @@
-{{header-it columns=columns}}
-{{row-it data=data columns=columns}}
+<table class="table">
+  {{header-it columns=columns}}
+  {{row-it rows=rows columns=columns}}
+</table>
+{{pagination-pager count=totalPages current=1 change="setPage"}}

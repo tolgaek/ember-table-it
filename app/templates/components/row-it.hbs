@@ -1,9 +1,9 @@
-<tbody>
-  {{#each data}}
-  <tr>
-    {{#each columns}}
-      {{@../this}}
-    {{/each}}
-  </tr>
+{{#each row in rows}}
+<tr>
+  {{#each column in columns}}
+    <td>
+      {{get-property row column}}
+    </td>
   {{/each}}
-</tbody>
+</tr>
+{{/each}}
