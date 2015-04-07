@@ -1,5 +1,15 @@
-<table class="table">
-  {{header-it columns=columns}}
-  {{row-it rows=rows columns=columns}}
-</table>
+{{#if rows}}
+  <table class="table">
+    {{header-it columns=columns}}
+    {{row-it rows=rows columns=columns}}
+  </table>
+{{else}}
+  <div class="row">
+    <div class="col-md-2 col-md-offset-5">
+      <div class="fa fa-5x fa-refresh fa-spin margin-top-15">
+      </div>
+    </div>
+  </div>
+{{/if}}
+
 {{pagination-pager count=totalPages current=1 change="setPage"}}
