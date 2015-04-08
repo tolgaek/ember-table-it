@@ -2,7 +2,13 @@
 <tr>
   {{#each column in columns}}
     <td>
-      {{get-property row column}}
+      {{#if column.linkTo}}
+        <a href="{{column.linkTo}}{{get-property row column}}">
+          {{get-property row column}}
+        </a>
+      {{else}}
+        {{get-property row column}}
+      {{/if}}
     </td>
   {{/each}}
 </tr>
