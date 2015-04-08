@@ -1,6 +1,6 @@
 {
   "name": "ember-table-it",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An ember-addon for implementing tables with support for pagination",
   "directories": {
     "doc": "doc",

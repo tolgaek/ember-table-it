@@ -3,9 +3,9 @@
   {{#each column in columns}}
     <td>
       {{#if column.linkTo}}
-        <a href="{{column.linkTo}}{{get-property row column}}">
+        {{#link-to column.linkTo row}}
           {{get-property row column}}
-        </a>
+        {{/link-to}}
       {{else}}
         {{get-property row column}}
       {{/if}}
