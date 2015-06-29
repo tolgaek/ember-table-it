@@ -1,5 +1,3 @@
-import Ember from 'ember';
-
-export default Ember.Component.extend({
-  tagName: 'tbody'
-});
+import RowItComponent from 'ember-table-it/components/row-it';
+ 
+export default RowItComponent;

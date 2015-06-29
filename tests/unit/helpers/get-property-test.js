@@ -7,6 +7,6 @@ module('GetPropertyHelper');
 
 // Replace this with your real tests.
 test('it works', function(assert) {
-  var result = getProperty(42);
+  var result = getProperty({});
   assert.ok(result);
 });
