@@ -2,7 +2,6 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   totalPages: function() {
-    debugger
     return this.get('rows').get('content.meta').total_pages;
   }.property('rows.content'),
 

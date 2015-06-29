@@ -1,7 +1,7 @@
 import { test, moduleForComponent } from 'ember-qunit';
 import Ember from 'ember';
 
-moduleForComponent('header-it');
+moduleForComponent('row-it');
 
 test('it renders', function(assert) {
   // creates the component instance

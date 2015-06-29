@@ -3,10 +3,16 @@ import {
 } from '../../../helpers/get-property';
 import { module, test } from 'qunit';
 
-module('GetPropertyHelper');
 
 // Replace this with your real tests.
-test('it works', function(assert) {
-  var result = getProperty({});
-  assert.ok(result);
+test('get-property works', function(assert) {
+  var result = getProperty([{
+    get: function() {
+      return 'test';
+    }
+  }, {
+    name: 'key'
+  }]);
+  
+  assert.equal(result, 'test');
 });
