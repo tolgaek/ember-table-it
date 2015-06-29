@@ -3,18 +3,13 @@ import Ember from "ember";
 export default Ember.Controller.extend({
   columns: [
     {
-      name: 'ID',
-      map: 'id',
-      width:40
+      label: 'ID',
+      name: 'id'
     },{
-      name: 'Name',
-      map: 'name',
-      width:30
-    }],
-  rows: [
-    {
-      id: 1,
-      name: 'tolga'
-    }
-  ]
+      label: 'Name',
+      name: 'name'
+    }, {
+      label: 'Role',
+      name: 'role'
+    }]
 });
