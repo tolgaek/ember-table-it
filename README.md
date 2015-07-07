@@ -1,5 +1,6 @@
 <a href="https://codeclimate.com/repos/559be72f69568027df01f4f3/feed"><img src="https://codeclimate.com/repos/559be72f69568027df01f4f3/badges/6459806970caa5e48ee2/gpa.svg" /></a>
 
+
 # ember-table-it
 {{table-it}} component addon for simple table construction using Bootstrap 3 
 
